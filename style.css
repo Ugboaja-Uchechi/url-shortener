@@ -8,6 +8,7 @@
   --grayishViolet: hsl(257, 7%, 63%);
   --veryDarkBlue: hsl(255, 11%, 22%);
   --veryDarkViolet: hsl(260, 8%, 14%);
+  --white: #fff;
 }
 
 body {
@@ -19,6 +20,10 @@ body {
 }
 
 /* Desktop Header */
+
+header {
+  margin-top: 1rem;
+}
 
 .header-flex {
   display: flex;
@@ -44,8 +49,15 @@ body {
   align-items: center;
 }
 
-.login-flex:nth-child(1) {
+.login-flex > p:nth-child(1) {
   padding-right: 3rem;
+}
+
+.login-flex > p:nth-child(2) {
+  background-color: var(--cyan);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  color: var(--white);
 }
 
 h1 {
