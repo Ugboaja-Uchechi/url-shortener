@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 /* Desktop Header */
@@ -60,6 +61,20 @@ header {
   color: var(--white);
 }
 
+/* Main Styling */
+
+.main-flex {
+  display: flex;
+  transform: translate(15%, 15%);
+}
+
+.work-illustration {
+  width: calc(80% - 25px);
+}
+
 h1 {
   color: var(--veryDarkBlue);
 }
+
+/* Grid Container Styling */
+
