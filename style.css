@@ -17,3 +17,37 @@ body {
   height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Desktop Header */
+
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-shortly-flex {
+  display: flex;
+  align-items: center;
+}
+
+.header-shortly {
+  font-size: clamp(1.4em, 0.75rem + 1.5vw, 1.6em);
+  margin-right: 1rem;
+}
+
+.header-shortly-flex p {
+ margin: 0 1rem;
+}
+
+.login-flex {
+  display: flex;
+  align-items: center;
+}
+
+.login-flex:nth-child(1) {
+  padding-right: 3rem;
+}
+
+h1 {
+  color: var(--veryDarkBlue);
+}
