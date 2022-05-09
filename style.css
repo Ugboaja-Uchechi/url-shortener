@@ -139,9 +139,12 @@ input {
 }
 
 .input-button-container button {
-  margin-left: 5%;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   background-color: var(--cyan);
+  border: 1px solid var(--cyan);
+  border-radius: 10px;
+  color: var(--white);
+  font-size: calc(0.65rem + 0.5vw);
 }
 
 .bg-ash {
