@@ -116,7 +116,7 @@ h1 {
 
 .input-button-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-image: url(./images/bg-boost-desktop.svg);
   background-color: var(--darkViolet);
   background-size: cover;
@@ -132,14 +132,23 @@ h1 {
 }
 
 input {
-  width: calc(100% - 30px);
+  /* width: calc(100% - 30px); */
+  /* Tablet View
+  width: calc(60% - 30px); */
   padding: 1rem 7rem;
   display: block;
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid var(--white);
 }
 
 .input-button-container button {
-  padding: 1rem 2.5rem;
+  margin-left: 10%;
+  padding: 0rem 1.5rem;
+  /* Tablet View
+  margin-left: 10%; */
+    padding: 1rem 2.5rem;
   background-color: var(--cyan);
   border: 1px solid var(--cyan);
   border-radius: 10px;
