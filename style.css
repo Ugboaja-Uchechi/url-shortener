@@ -115,8 +115,10 @@ h1 {
 /* Input Styling */
 
 .input-button-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   background-image: url(./images/bg-boost-desktop.svg);
   background-color: var(--darkViolet);
   background-size: cover;
@@ -132,10 +134,11 @@ h1 {
 }
 
 input {
-  /* width: calc(100% - 30px); */
+  /* width: calc(50% - 30px); */
+  width:  -webkit-fill-available;
   /* Tablet View
   width: calc(60% - 30px); */
-  padding: 1rem 7rem;
+  padding: 1rem 1rem;
   display: block;
   /* margin-left: 5%; */
   outline: none;
@@ -144,16 +147,19 @@ input {
 }
 
 .input-button-container button {
-  margin-left: 10%;
-  padding: 0rem 1.5rem;
+  width: calc(80% - 30px);
+  /* margin-left: 10%; */
+  /* padding: 1rem 0.5rem; */
   /* Tablet View
   margin-left: 10%; */
-    padding: 1rem 2.5rem;
   background-color: var(--cyan);
   border: 1px solid var(--cyan);
   border-radius: 10px;
   color: var(--white);
   font-size: calc(0.65rem + 0.5vw);
+  margin-left: 10%;
+  font-size: calc(0.8rem + 0.5vw);
+    font-weight: 700;
 }
 
 .bg-ash {
