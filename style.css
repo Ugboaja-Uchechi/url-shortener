@@ -114,7 +114,7 @@ h1 {
 
 /* Input Styling */
 
-.input-button-container {
+#input-button-container {
   /* display: flex;
   justify-content: center; */
   display: grid;
@@ -124,7 +124,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   grid-column: 1/5;
-  grid-row: 2/6;
+  grid-row: 2/5;
   /* Tablet View
   grid-row: 2/5; */
   z-index: 2;
@@ -146,7 +146,7 @@ input {
   border: 1px solid var(--white);
 }
 
-.input-button-container button {
+#input-button-container button {
   width: calc(80% - 30px);
   /* margin-left: 10%; */
   /* padding: 1rem 0.5rem; */
@@ -156,18 +156,30 @@ input {
   border: 1px solid var(--cyan);
   border-radius: 10px;
   color: var(--white);
-  font-size: calc(0.65rem + 0.5vw);
   margin-left: 10%;
   font-size: calc(0.8rem + 0.5vw);
     font-weight: 700;
 }
 
 .bg-ash {
-  background-color: var(--gray);
+  background-color: #f0f1f6;
   grid-column: 1/5;
   grid-row: 3/9;
 }
 
-.bg-ash > h2 {
-  margin-top: 0;
+#advanced-statistics {
+  margin-top: 10rem;
+  text-align: center;
+  color: var(--veryDarkViolet);
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: calc(1.1rem + 0.5vw);
+}
+
+#bg-ash-p {
+  margin: auto;
+  text-align: center;
+  width: calc(5.6em * 5);
+  font-size: calc(0.5rem + 0.5vw);
+  color: var(--gray);
 }
