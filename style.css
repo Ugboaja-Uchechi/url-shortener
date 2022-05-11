@@ -228,7 +228,8 @@ input {
     /* margin-top: 10%; */
   padding: 0 2rem;
   padding-top: 10%;
-  margin-bottom: 30%
+  margin-bottom: 30%;
+  height: fit-content;
   /* margin-right: 5%; */
 }
 
@@ -264,4 +265,8 @@ input {
 .width-p {
   width: calc(3em * 5);
   margin: auto;
+  margin-bottom: 2.5rem;
+  margin-top: 0.5rem;
+  font-size: calc(0.5rem + 0.5vw);
+  color: var(--gray);
 }
