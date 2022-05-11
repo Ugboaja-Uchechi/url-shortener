@@ -183,3 +183,12 @@ input {
   font-size: calc(0.5rem + 0.5vw);
   color: var(--gray);
 }
+
+.bg-ash-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
