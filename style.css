@@ -204,7 +204,7 @@ input {
 .image {
   grid-column: 1/5;
   grid-row: 2/4;
-  z-index: 2;
+  z-index: 3;
   /* width: fit-content;
   align-self: end; */
   place-self: flex-start;
@@ -230,7 +230,19 @@ input {
   padding-top: 10%;
   margin-bottom: 30%;
   height: fit-content;
+  z-index: 2;
   /* margin-right: 5%; */
+}
+
+hr {
+  position: relative;
+  top: 175px;
+  right: 123%;
+  transform: rotate(90deg);
+  width: 3%;
+  height: 230%;
+  background-color: var(--cyan);
+  border: 1px solid var(--cyan);
 }
 
 .col-2 {
