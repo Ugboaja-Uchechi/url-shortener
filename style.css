@@ -161,6 +161,8 @@ input {
     font-weight: 700;
 }
 
+/* First Section Styling */
+
 .bg-ash {
   background-color: #f0f1f6;
   grid-column: 1/5;
@@ -282,3 +284,5 @@ hr {
   font-size: calc(0.5rem + 0.5vw);
   color: var(--gray);
 }
+
+/* First Section Styling End */
