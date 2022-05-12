@@ -91,7 +91,7 @@ header {
 
 h1 {
   color: var(--veryDarkBlue);
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(1rem + 3vw);
   width: calc(2em * 5);
   margin: 0;
 }
@@ -263,9 +263,18 @@ hr {
 /* Section Section Styling */
 
 .second-section {
-  height: calc(3em * 4);
+  height: calc(2em * 4);
   background-image: url(./images/bg-boost-desktop.svg);
   background-color: var(--darkViolet);
   background-size: cover;background-repeat: no-repeat;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-align {
+  text-align: center;
   margin-top: 0;
 }
