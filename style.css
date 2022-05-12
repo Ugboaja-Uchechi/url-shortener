@@ -277,14 +277,10 @@ hr {
 .h4 {
   font-size: calc(0.8rem + 0.5vw);
   color: var(--white);
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .text-align {
   text-align: center;
-  margin-top: 0;
-}
-
-.second-section p {
   margin-top: 0.5rem;
 }
