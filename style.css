@@ -213,11 +213,11 @@ input {
 
 hr {
   position: relative;
-  top: 175px;
+  top: 170px;
   right: 123%;
   transform: rotate(90deg);
   width: 3%;
-  height: 230%;
+  height: 240%;
   background-color: var(--cyan);
   border: 1px solid var(--cyan);
 }
@@ -259,3 +259,13 @@ hr {
 }
 
 /* First Section Styling End */
+
+/* Section Section Styling */
+
+.second-section {
+  height: calc(3em * 4);
+  background-image: url(./images/bg-boost-desktop.svg);
+  background-color: var(--darkViolet);
+  background-size: cover;background-repeat: no-repeat;
+  margin-top: 0;
+}
