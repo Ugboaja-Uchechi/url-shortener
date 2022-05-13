@@ -317,3 +317,17 @@ footer {
   color: var(--grayishViolet);
   text-transform: capitalize;
 }
+
+.icon-logos {
+  color: var(--white);
+  font-size: 16px;
+  font-size: 20px;
+}
+
+.fa-github {
+  padding-right: 0.5rem;
+}
+
+.fa-linkedin {
+  padding-left: 0.5rem;
+}
