@@ -307,3 +307,13 @@ footer {
 #d-contents {
   display: contents;
 }
+
+.footer-h5 {
+  color: var(--white);
+  font-size: calc(0.5rem + 0.5vw);
+}
+
+.footer-p {
+  color: var(--grayishViolet);
+  text-transform: capitalize;
+}
