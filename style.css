@@ -11,6 +11,10 @@
   --white: #fff;
 }
 
+* {
+  transition: 0.5s ease-in-out;
+}
+
 body {
   margin: 0;
   padding: 0;
