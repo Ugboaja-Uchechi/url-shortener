@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shortly</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
@@ -27,59 +28,103 @@
       <div class="main-flex">
         <div>
           <h1>More than just shorter links</h1>
-          <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-          <p>Get Started</p>
+          <p class="first-paragaph">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <p class="fake-button">Get Started</p>
         </div>
         <div>
           <img class="work-illustration" src="./images/illustration-working.svg" alt="An illustration of a human working on a computer">
         </div>
       </div>
-      <div class="input-button-container">
+      <div id="input-button-container">
         <div>
           <label for="api-input"></label>
           <input type="text" id="api-input" name="api-input">
         </div>
-        <button>Shorten it</button>
+        <button>Shorten It !</button>
       </div>
-      <div class="bg-ash">
-        <h2>Advanced statistics</h2>
-        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
-        <div>
-          <div>
-            <img src="" alt="">
+      <section class="bg-ash">
+        <div class="bg-ash-grid">
+          <div class="bg-ash-text">
+            <h2 id="advanced-statistics">Advanced statistics</h2>
+            <p id="bg-ash-p">Track how your links are performing across the web with our advanced statistics dashboard.</p>
           </div>
-          <div>
-            <h3>Brand Recognition</h3>
-            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          <div class="image col-2">
+            <img src="./images/icon-brand-recognition.svg" alt="Brand Recognition Icon">
           </div>
+            <div class="bg-white">
+              <!-- <div>
+                <img src="./images/icon-brand-recognition.svg" alt="Brand Recognition Icon">
+              </div> -->
+              <h3 class="width-h3">Brand Recognition</h3>
+              <p class="width-p">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+            </div>
+            <hr>
+            <div class="image col-3 m-left">
+              <img src="./images/icon-detailed-records.svg" alt="Detailed Records Icon">
+            </div>
+            <div class="bg-white col-3">
+              <!-- <div>
+                <img src="./images/icon-detailed-records.svg" alt="Detailed Records Icon">
+              </div> -->
+              <h3 class="width-h3">Detailed Records</h3>
+              <p class="width-p">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+            </div>
+            <div class="image col-5 m-top-45">
+              <img src="./images/icon-fully-customizable.svg" alt="">
+            </div>
+            <div class="bg-white col-5">
+              <!-- <div>
+                <img src="./images/icon-fully-customizable.svg" alt="">
+              </div> -->
+              <h3 class="width-h3">Fully customizable</h3>
+              <p class="width-p">  Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+            </div>
         </div>
-      </div>
+      </section>
     </div>
   </main>
-  <section>
-    <h4>Boost your links today</h4>
-    <p>Get started</p>
+  <section class="second-section">
+    <h4 class="h4 text-align">Boost your links today</h4>
+    <p id="hover" class="text-align fake-button">Get started</p>
   </section>
   <footer>
-    <div>
-      <h4>Shortly</h4>
-      <div>
-        <h5>Features</h5>
-        <h5>Resources</h5>
-        <h5>Company</h5>
-        <!-- icon -->
-        <p>link shortening</p>
-        <p>Blog</p>
-        <p>About</p>
-        <p>Branded links</p>
-        <p>Developers</p>
-        <p>Our team</p>
-        <p>Analytics</p>
-        <p>Support</p>
-        <p>Careers</p>
-        <p>Contact</p>
-      </div>
+    <div id="d-flex">
+      <h4 id="footer-h4">Shortly</h4>
       
+      <div id="d-contents">
+        <div>
+          <h5 class="footer-h5">Features</h5>
+          <p class="footer-p">link shortening</p>
+          <p class="footer-p">Branded links</p>
+          <p class="footer-p">Analytics</p>
+          <!-- <h5>Resources</h5> -->
+          <!-- <h5>Company</h5> -->
+          <!-- icon -->
+        </div>
+        <div>
+          <h5 class="footer-h5">Resources</h5>
+          <p class="footer-p">Blog</p>
+          <p class="footer-p">Developers</p>
+          <p class="footer-p">Support</p>
+        </div>
+        <div>
+          <h5 class="footer-h5">Company</h5>
+          <!-- <p>link shortening</p> -->
+          <!-- <p>Blog</p> -->
+          <p class="footer-p">About</p>
+          <!-- <p>Branded links</p> -->
+          <!-- <p>Developers</p> -->
+          <p class="footer-p">Our team</p>
+          <!-- <p>Analytics</p> -->
+          <!-- <p>Support</p> -->
+          <p class="footer-p">Careers</p>
+          <p class="footer-p">Contact</p>
+        </div>
+      </div>
+      <div>
+        <a href="https://github.com/Ugboaja-Uchechi" target="_blank" rel="noopener noreferrer"><i class="fa-brands icon-logos fa-github"></i></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fa-brands icon-logos fa-linkedin"></i></a>
+      </div>
     </div>
   </footer>
 </body>
