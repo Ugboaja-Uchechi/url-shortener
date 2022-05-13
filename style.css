@@ -324,6 +324,12 @@ footer {
   font-size: 20px;
 }
 
+.footer-p:hover,
+.icon-logos:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
 .fa-github {
   padding-right: 0.5rem;
 }
