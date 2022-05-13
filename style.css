@@ -284,3 +284,13 @@ hr {
   text-align: center;
   margin-top: 0.5rem;
 }
+
+#d-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+#d-contents {
+  display: contents;
+}
