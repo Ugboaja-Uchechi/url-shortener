@@ -38,6 +38,7 @@ header {
 
 .header-shortly {
   font-size: clamp(1.4em, 0.75rem + 1.5vw, 1.6em);
+  color: var(--darkViolet);
   margin-right: 1rem;
 }
 
@@ -248,6 +249,7 @@ hr {
 
 .width-h3 {
   margin: auto;
+  color: var(--darkViolet);
 }
 .width-p {
   width: calc(3em * 5);
@@ -284,6 +286,8 @@ hr {
   text-align: center;
   margin-top: 0.5rem;
 }
+
+/* Footer Styling */
 
 #d-flex {
   display: flex;
