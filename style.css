@@ -324,16 +324,43 @@ footer {
   font-size: 20px;
 }
 
-.footer-p:hover,
-.icon-logos:hover {
-  color: var(--cyan);
-  cursor: pointer;
-}
-
 .fa-github {
   padding-right: 0.5rem;
 }
 
 .fa-linkedin {
   padding-left: 0.5rem;
+}
+
+/* Hover Effects */
+
+.fake-button:hover,
+.login-flex > p:nth-child(2):hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+#input-button-container button:hover {
+  background-color: hsl(180deg 77% 72%);
+  border: 1px solid hsl(180deg 77% 72%);
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+  color: var(--darkViolet);
+}
+
+#hover:hover {
+  background-color: deepskyblue;
+  border: deepskyblue;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+  color: black;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.footer-p:hover,
+.icon-logos:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
