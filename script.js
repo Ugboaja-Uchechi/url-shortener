@@ -1,5 +1,6 @@
 const apiUrl = "https://api.shrtco.de/v2/";
-const liLinks = document.querySelector('.links');
+const originalLinks = document.querySelector('#original-links');
+const shortLinks = document.querySelector('#short-links');
 const button = document.querySelector('.button');
 const input = document.querySelector('#api-input');
 
@@ -11,11 +12,12 @@ const shortenUrlAddress = () => {
     return response
   }
   button.addEventListener('click', async (e) => {
-    e.preventDefault()
     const urlvalue = input.value;
     const { result: { original_link, short_link } } = await data(urlvalue)
   
-   liLinks.textContent += `${original_link} ${short_link}`;
+   originalLinks.textContent += `${original_link}`;
+   shortLinks.textContent += `${short_link}`;
+   input.value = "";
   })
 }
 
