@@ -518,4 +518,13 @@ footer {
     margin: 0;
   }
 
+  /* Footer Styling */
+
+  #d-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
 }
