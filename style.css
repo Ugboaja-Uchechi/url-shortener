@@ -223,7 +223,7 @@ li {
   background-color: var(--white);
   grid-column: 2/3;
   grid-row: 3/7;
-  padding: 0 2rem;
+  padding: 0 1rem;
   padding-top: 10%;
   margin-bottom: 30%;
   height: fit-content;
