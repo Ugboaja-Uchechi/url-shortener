@@ -382,5 +382,40 @@ footer {
 @media screen and 
   (min-width:375px) and
   (max-width: 580px){
-  
+    /* Main Styling */
+
+  .main-flex {
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(0);
+  }
+
+  #mobile-order {
+    order: 1;
+  }
+
+  h1 {
+    font-size: calc(3rem + 2vw);
+    /* margin: auto; */
+    text-align: center;
+  }
+
+  .first-paragaph {
+    width: calc(3.8em * 5);
+    font-size: calc(1.5rem + 1.5vw);
+    text-align: center;
+  }
+
+  .work-illustration {
+    width: calc(95% - 25px);
+  }
+
+  .fake-button {
+    font-size: calc(1.5rem + 1.5vw);
+    padding: 1.2rem 3rem;
+    width: calc(40% - 30px);
+    border-radius: 40px;
+    margin: 0.5rem auto;
+    display: block;
+  }
 }
