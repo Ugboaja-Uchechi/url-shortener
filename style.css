@@ -111,6 +111,7 @@ h1 {
   border-radius: 25px;
   color: var(--white);
   display: inline;
+  text-align: center;
 }
 
 /* Input Styling */
@@ -128,6 +129,7 @@ h1 {
   width: calc(70% - 30px);
   margin: auto;
   padding: 1.5rem;
+  border-radius: 10px;
 }
 
 input {
@@ -417,5 +419,30 @@ footer {
     border-radius: 40px;
     margin: 0.5rem auto;
     display: block;
+    margin-bottom: 5rem;
+  }
+
+  /* Input Styling */
+
+  #input-button-container {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/5;
+  }
+
+  input {
+    font-size: calc(1.5rem + 1.5vw);
+  }
+
+  #input-button-container button {
+    width: auto;
+    padding: 1rem 0;
+    margin-top: 5%;
+    font-size: calc(1.5rem + 1.5vw);
+    margin-left: 0;
+  }
+
+  .bg-ash {
+    grid-row: 3/10;
   }
 }
