@@ -226,6 +226,7 @@ li {
   margin-bottom: 30%;
   height: fit-content;
   z-index: 2;
+  border-radius: 5px;
 }
 
 hr {
@@ -383,7 +384,11 @@ footer {
 
 @media screen and 
   (min-width:375px) and
-  (max-width: 580px){
+  (max-width: 600px){
+
+    header {
+      display: none;
+    }
     /* Main Styling */
 
   .main-flex {
@@ -397,14 +402,15 @@ footer {
   }
 
   h1 {
-    font-size: calc(3rem + 2vw);
-    /* margin: auto; */
+    font-size: calc(1.5rem + 1vw);
+    width: calc(2em * 5);
+    margin: auto;
     text-align: center;
   }
 
   .first-paragaph {
     width: calc(3.8em * 5);
-    font-size: calc(1.5rem + 1vw);
+    font-size: calc(0.8rem + 1vw);
     text-align: center;
   }
 
@@ -413,7 +419,8 @@ footer {
   }
 
   .fake-button {
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(0.8rem + 0.5vw);
+    font-weight: 500;
     padding: 1.2rem 3rem;
     width: calc(40% - 30px);
     border-radius: 40px;
@@ -431,14 +438,14 @@ footer {
   }
 
   input {
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1rem + 0.5vw);
   }
 
   #input-button-container button {
     width: auto;
     padding: 1rem 0;
     margin-top: 5%;
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1rem + 0.5vw);
     margin-left: 0;
   }
 
@@ -458,8 +465,10 @@ footer {
   }
 
   .image {
-    grid-row: 0;
+    grid-row: 3/3;
     grid-column: 3;
+    margin: 0;
+    place-self: auto;
   }
 
   .bg-white {
@@ -482,9 +491,24 @@ footer {
     margin: 0;
   }
 
-  .image {
-    margin: 0;
-    place-self: auto;
+  hr {
+    top: 100px;
+    right: 0;
+    width: 2%;
+    height: 100%;
+    grid-row: 3/5;
+    grid-column: 1/4;
+    transform: rotate(0deg);
+  }
+
+  .width-h3 {
+    text-align: center;
+  }
+
+  .width-p {
+    width: calc(3.5em * 5);
+    text-align: center;
+    font-size: calc(0.8rem + 0.5vw);
   }
 
 }
