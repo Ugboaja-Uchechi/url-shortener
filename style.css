@@ -230,11 +230,11 @@ li {
 
 hr {
   position: relative;
-  top: 170px;
-  right: 123%;
+  top: 155px;
+  right: 130%;
   transform: rotate(90deg);
   width: 3%;
-  height: 240%;
+  height: 260%;
   background-color: var(--cyan);
   border: 1px solid var(--cyan);
 }
@@ -445,11 +445,11 @@ footer {
   /* First Section Styling */
 
   .bg-ash {
-    grid-row: 3/10;
+    grid-row: 3/12;
   }
 
   .bg-ash-grid {
-    justify-content: normal;
+    align-items: baseline;
   }
 
   .bg-ash-text {
@@ -459,20 +459,32 @@ footer {
 
   .image {
     grid-row: 0;
-    grid-column: 0;
+    grid-column: 3;
   }
 
   .bg-white {
     grid-row: 3;
-    grid-column: 3;
+    grid-column: 1/4;
+    margin-bottom: 20%;
   }
 
   .col-3 {
     grid-row: 4;
+    margin: 0;
+  }
+  
+  .m-bottom {
+    margin-bottom: 20%;
   }
 
   .col-5 {
     grid-row: 5;
+    margin: 0;
+  }
+
+  .image {
+    margin: 0;
+    place-self: auto;
   }
 
 }
