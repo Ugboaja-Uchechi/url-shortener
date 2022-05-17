@@ -527,4 +527,23 @@ footer {
     text-align: center;
   }
 
+  #footer-h4 {
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .footer-h5 {
+    font-size: calc(1rem + 0.5vw);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-p {
+    font-size: calc(0.8rem + 0.5vw)
+  }
+
+  #footer-margin {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+
 }
