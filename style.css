@@ -445,11 +445,34 @@ footer {
   /* First Section Styling */
 
   .bg-ash {
-    grid-row: 3/25;
+    grid-row: 3/10;
   }
 
   .bg-ash-grid {
-    display: flex;
-    flex-direction: column;
+    justify-content: normal;
   }
+
+  .bg-ash-text {
+    grid-row: 0;
+    grid-column: 0;
+  }
+
+  .image {
+    grid-row: 0;
+    grid-column: 0;
+  }
+
+  .bg-white {
+    grid-row: 3;
+    grid-column: 3;
+  }
+
+  .col-3 {
+    grid-row: 4;
+  }
+
+  .col-5 {
+    grid-row: 5;
+  }
+
 }
