@@ -11,10 +11,6 @@
   --white: #fff;
 }
 
-* {
-  transition: 0.5s ease-in-out;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -381,4 +377,10 @@ footer {
 .icon-logos:hover {
   color: var(--cyan);
   cursor: pointer;
+}
+
+@media screen and 
+  (min-width:375px) and
+  (max-width: 580px){
+  
 }
