@@ -481,14 +481,14 @@ footer {
     grid-row: 4;
     margin: 0;
   }
-  
-  .m-bottom {
-    margin-bottom: 20%;
-  }
 
   .col-5 {
     grid-row: 5;
     margin: 0;
+  }
+
+  .m-bottom {
+    margin-bottom: 20%;
   }
 
   hr {
@@ -509,6 +509,13 @@ footer {
     width: calc(3.5em * 5);
     text-align: center;
     font-size: calc(0.8rem + 0.5vw);
+  }
+
+  /* Second Section Styling */
+
+  #hover {
+    padding: 0.8rem 1rem;
+    margin: 0;
   }
 
 }
