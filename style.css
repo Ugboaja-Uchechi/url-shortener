@@ -404,7 +404,7 @@ footer {
 
   .first-paragaph {
     width: calc(3.8em * 5);
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1.5rem + 1vw);
     text-align: center;
   }
 
@@ -442,7 +442,14 @@ footer {
     margin-left: 0;
   }
 
+  /* First Section Styling */
+
   .bg-ash {
-    grid-row: 3/10;
+    grid-row: 3/25;
+  }
+
+  .bg-ash-grid {
+    display: flex;
+    flex-direction: column;
   }
 }
