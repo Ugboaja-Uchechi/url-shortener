@@ -229,7 +229,7 @@ li {
   border-radius: 5px;
 }
 
-hr {
+.section-hr {
   position: relative;
   top: 155px;
   right: 130%;
@@ -390,6 +390,10 @@ footer {
 
     .header-flex {
       display: block;
+      background-color: var(--darkViolet);
+      width: calc(3.8em * 5);
+      margin: auto;
+      border-radius: 10px;
     }
 
     .header-shortly-flex,
@@ -398,12 +402,28 @@ footer {
       align-items: center;
     }
 
+    .header-shortly {
+      display: none;
+    }
+
     .header-shortly-flex p {
       margin: 0.8rem 0;
+      color: var(--white);
+    }
+
+    .header-shortly-flex p:nth-child(2) {
+      margin-top: 2.5rem;
     }
 
     .login-flex > p:nth-child(1) {
       padding: 0;
+      color: var(--white);
+    }
+
+    .nav-hr {
+    width: 80%;
+    color: var(--grayishViolet);
+    display: block;
     }
 
     /* header {
@@ -524,7 +544,7 @@ footer {
     margin-bottom: 20%;
   }
 
-  hr {
+  .section-hr {
     top: 100px;
     right: 0;
     width: 2%;
