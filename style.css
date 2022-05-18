@@ -398,6 +398,14 @@ footer {
       align-items: center;
     }
 
+    .header-shortly-flex p {
+      margin: 0.8rem 0;
+    }
+
+    .login-flex > p:nth-child(1) {
+      padding: 0;
+    }
+
     /* header {
       display: none;
     } */
