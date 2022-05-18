@@ -20,6 +20,14 @@ body {
   overflow-x: hidden;
 }
 
+.nav-hr {
+  display: none;
+}
+
+.mobile-header {
+  display: none;
+}
+
 /* Desktop Header */
 
 header {
@@ -388,6 +396,22 @@ footer {
 
     /* Header-Nav Styling */
 
+    .mobile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+    }
+
+    .mobile-header-shortly {
+      font-size: clamp(1.4em, 0.75rem + 1.5vw, 1.6em);
+    }
+
+    .menu {
+      color: var(--gray);
+      font-size: clamp(1.2em, 0.75rem + 1vw, 1em);
+    }
+
     .header-flex {
       display: block;
       background-color: var(--darkViolet);
@@ -418,6 +442,14 @@ footer {
     .login-flex > p:nth-child(1) {
       padding: 0;
       color: var(--white);
+    }
+
+    .login-flex > p:nth-child(2) {
+      padding: 0.8rem 2rem;
+      width: calc(40% - 30px);
+      border-radius: 40px;
+      margin-bottom: 2.5rem;
+      text-align: center;
     }
 
     .nav-hr {
