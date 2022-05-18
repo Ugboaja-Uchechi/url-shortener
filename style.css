@@ -383,12 +383,24 @@ footer {
 }
 
 @media screen and 
-  (min-width:375px) and
+  (min-width:320px) and
   (max-width: 600px){
 
-    header {
-      display: none;
+    /* Header-Nav Styling */
+
+    .header-flex {
+      display: block;
     }
+
+    .header-shortly-flex,
+    .login-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* header {
+      display: none;
+    } */
     /* Main Styling */
 
   .main-flex {
