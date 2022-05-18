@@ -412,8 +412,13 @@ footer {
       font-size: clamp(1.2em, 0.75rem + 1vw, 1em);
     }
 
+    .mobile-header .close {
+      display: none;
+      font-size: clamp(1.2em, 0.75rem + 1vw, 1em);
+    }
+
     .header-flex {
-      display: block;
+      display: none;
       background-color: var(--darkViolet);
       width: calc(3.8em * 5);
       margin: auto;

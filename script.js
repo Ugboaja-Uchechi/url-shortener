@@ -2,8 +2,24 @@ const apiUrl = "https://api.shrtco.de/v2/";
 const originalLinks = document.querySelector('#original-links');
 const shortLinks = document.querySelector('#short-links');
 const button = document.querySelector('.button');
+const headerFlex = document.querySelector('.header-flex');
+const menu = document.querySelector('.menu');
+const close = document.querySelector('.close');
 const input = document.querySelector('#api-input');
 const linksContainer = document.querySelector("#links-container");
+
+menu.addEventListener('click', () => {
+  headerFlex.style.display = 'block';
+  close.style.display = 'block';
+  menu.style.display = 'none';
+  
+});
+
+close.addEventListener('click', () => {
+  headerFlex.style.display = 'none';
+  menu.style.display = 'block';
+  close.style.display = 'none';
+});
 
 // let urlArray = [];
 // let urlObjectParameter = {
