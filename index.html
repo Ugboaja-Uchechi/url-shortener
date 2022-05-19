@@ -11,6 +11,15 @@
 </head>
 <body>
   <header>
+    <div class="mobile-header">
+      <div>
+        <h2 class="mobile-header-shortly">Shortly</h2>
+      </div>
+      <div>
+        <i class="fa-solid fa-bars menu"></i>
+        <i class="fa-solid fa-xmark close"></i>
+      </div>
+    </div>
     <div class="header-flex">
       <div class="header-shortly-flex">
         <h2 class="header-shortly">Shortly</h2>
@@ -18,6 +27,7 @@
         <p>Pricing</p>
         <p>Resources</p>
       </div>
+      <hr class="nav-hr">
       <div class="login-flex">
         <p>Login</p>
         <p>Signup</p>
@@ -27,12 +37,12 @@
   <main>
     <div class="grid-container">
       <div class="main-flex">
-        <div>
+        <div id="mobile-order">
           <h1>More than just shorter links</h1>
           <p class="first-paragaph">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
           <p class="fake-button">Get Started</p>
         </div>
-        <div>
+        <div id="work-illustration-cover">
           <img class="work-illustration" src="./images/illustration-working.svg" alt="An illustration of a human working on a computer">
         </div>
       </div>
@@ -63,11 +73,11 @@
               <h3 class="width-h3">Brand Recognition</h3>
               <p class="width-p">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
             </div>
-            <hr>
+            <hr class="section-hr">
             <div class="image col-3 m-left">
               <img src="./images/icon-detailed-records.svg" alt="Detailed Records Icon">
             </div>
-            <div class="bg-white col-3">
+            <div class="bg-white col-3 m-bottom">
               <!-- <div>
                 <img src="./images/icon-detailed-records.svg" alt="Detailed Records Icon">
               </div> -->
@@ -77,7 +87,7 @@
             <div class="image col-5 m-top-45">
               <img src="./images/icon-fully-customizable.svg" alt="">
             </div>
-            <div class="bg-white col-5">
+            <div class="bg-white col-5 m-bottom">
               <!-- <div>
                 <img src="./images/icon-fully-customizable.svg" alt="">
               </div> -->
@@ -126,7 +136,7 @@
           <p class="footer-p">Contact</p>
         </div>
       </div>
-      <div>
+      <div id="footer-margin">
         <a href="https://github.com/Ugboaja-Uchechi" target="_blank" rel="noopener noreferrer"><i class="fa-brands icon-logos fa-github"></i></a>
         <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fa-brands icon-logos fa-linkedin"></i></a>
       </div>
