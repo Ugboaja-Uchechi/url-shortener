@@ -10,6 +10,7 @@ const linksContainer = document.querySelector("#links-container");
 
 menu.addEventListener('click', () => {
   headerFlex.style.display = 'block';
+  // headerFlex.style.transition = "1500ms ease-in-out 800ms"
   close.style.display = 'block';
   menu.style.display = 'none';
   

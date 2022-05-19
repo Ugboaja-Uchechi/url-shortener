@@ -400,7 +400,7 @@ footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 1rem;
+      padding: 0 2rem;
     }
 
     .mobile-header-shortly {
@@ -415,6 +415,7 @@ footer {
     .mobile-header .close {
       display: none;
       font-size: clamp(1.2em, 0.75rem + 1vw, 1em);
+      color: var(--gray);
     }
 
     .header-flex {
@@ -423,6 +424,7 @@ footer {
       width: calc(3.8em * 5);
       margin: auto;
       border-radius: 10px;
+      transition: all 1500ms ease-in-out 800ms;
     }
 
     .header-shortly-flex,
@@ -438,6 +440,7 @@ footer {
     .header-shortly-flex p {
       margin: 0.8rem 0;
       color: var(--white);
+      font-size: calc(0.8rem + 0.5vw)
     }
 
     .header-shortly-flex p:nth-child(2) {
@@ -447,6 +450,7 @@ footer {
     .login-flex > p:nth-child(1) {
       padding: 0;
       color: var(--white);
+      font-size: calc(0.8rem + 0.5vw)
     }
 
     .login-flex > p:nth-child(2) {
@@ -455,6 +459,7 @@ footer {
       border-radius: 40px;
       margin-bottom: 2.5rem;
       text-align: center;
+      font-size: calc(0.8rem + 0.5vw)
     }
 
     .nav-hr {
@@ -491,8 +496,14 @@ footer {
     text-align: center;
   }
 
+  #work-illustration-cover {
+    overflow-x: hidden;
+  }
+
   .work-illustration {
-    width: calc(95% - 25px);
+    width: 100%;
+    height: 100%;
+    transform: translateX(10%);
   }
 
   .fake-button {
