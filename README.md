@@ -27,9 +27,7 @@ In this challenge, I integrated the [shrtcode API](https://shrtco.de/) to create
 
 ### ScreenShot
 
-Desktop | Mobile
-------------- | -------------
-![image]() | ![image]()
+![image](https://github.com/Ugboaja-Uchechi/url-shortener/blob/main/desktop-url.png?raw=true)
 
 ## Author
 Ugboaja Uchechi
