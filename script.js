@@ -43,37 +43,36 @@ const shortenUrlAddress = () => {
   }
 
   button.addEventListener('click', async (e) => {
+    e.preventDefault();
     const urlvalue = input.value;
     const { result: { original_link, short_link } } = await data(urlvalue)
     // let urlObjectParameter = {
     //   originalLink: original_link,
     //   shortLink: short_link
     // }
-    // // urlObjectParameter.originalLink = [`${original_link}`];
-    // // urlObjectParameter.shortLink = [`${short_link}`];
-    // // urlArray.push(urlObjectParameter)
-    // localStorage.setItem("url's", JSON.stringify(urlObjectParameter))
-    // console.log(localStorage)
-// console.log(urlLocalStorage)
-   input.value = "";
 
-   display += 
-   `
-   <div>
-      <p id="original-links">${original_link}</p>
-      <div>
-        <p id="short-links">${short_link}</p>
-      </div>
-    </div>
-   `
+    input.value = "";
 
-  //  for (let i = 0; i < urlObjectParameter.length; i++) {
-    // originalLinks.textContent = `${original_link}`
-    // shortLinks.textContent = `${short_link}`
-    // console.log(urlLocalStorage)
-  // }
-  
-  linksContainer.innerHTML = display  
+    display += 
+    `
+    <div id="links-flex">
+       <p id="original-links">${original_link}</p>
+       <div>
+         <p id="short-links">${short_link}</p>
+       </div>
+     </div>
+    `
+   
+   linksContainer.innerHTML = display  
+    urlObjectParameter.originalLink = original_link;
+    urlObjectParameter.shortLink = short_link;
+    urlArray.push(urlObjectParameter)
+    localStorage.setItem("url's", JSON.stringify(urlArray));
+  JSON.parse(localStorage.getItem("url's"));
+
+  console.log(urlArray)
+  console.log(JSON.parse(localStorage.getItem("url's")))
+  // return urlArray;
   })
 }
 

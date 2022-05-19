@@ -177,6 +177,11 @@ input {
   background-color: var(--white);
 }
 
+#links-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 li {
   list-style-type: none;
 }
