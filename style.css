@@ -170,10 +170,8 @@ input {
 }
 
 #links-container {
-  display: flex;
   width: calc(70% - 30px);
   margin-top: 6rem;
-  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--white);
