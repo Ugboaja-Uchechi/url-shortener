@@ -142,6 +142,7 @@ h1 {
 
 input {
   width:  -webkit-fill-available;
+  width: -moz-available;
   padding: 1rem 1rem;
   display: block;
   outline: none;
