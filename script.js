@@ -72,14 +72,21 @@ const shortenUrlAddress = () => {
   button.addEventListener('click', async (e) => {
     e.preventDefault();
 
-    if (!input.value.trim()) {
+    let urlvalue = input.value.trim();
+    
+    // Replace spaces with %20
+    urlvalue = urlvalue.replace(/\s/g, '%20');
+
+    // Remove tabs and newlines, and leading/trailing spaces again for safety
+    urlvalue = urlvalue.replace(/[\t\n]/g, '');
+
+    if (!urlvalue) {
       alert("Please enter a valid URL");
       return;
     }
 
     button.disabled = true;  // Prevent multiple clicks
 
-    const urlvalue = input.value.trim();
     try {
       const result = await data(urlvalue);
       if (result && result.result_url) {

@@ -174,12 +174,13 @@ input {
   margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--white);
 }
 
 #links-flex {
   display: flex;
   justify-content: space-between;
+  background-color: var(--white);
+  margin-block: .75rem;
 }
 
 li {
@@ -367,7 +368,7 @@ footer {
 .login-flex > p:nth-child(2):hover {
   opacity: 0.5;
   cursor: pointer;
-  transition: 0.4s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 #input-button-container button:hover {
